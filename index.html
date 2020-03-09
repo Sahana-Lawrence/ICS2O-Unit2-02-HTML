@@ -17,15 +17,17 @@
       <p id="demo">A Paragraph</p>
       <button onclick="myFunction()">Click Me!</button>
       <br>
-      <p id="color" onclick="myFunction()">Click me to change my text color.</p>
+      <p id="color" onclick="changeColor()">Click me to change my text color.</p>
       <br>
       <button onclick="document.getElementById('img').src='./images/castle.jpg'">Castle 1</button>
       <img id="img" src="./images/grass.jpg">
       <button onclick="document.getElementById('img').src='./images/castle2.jpg'">Castle 2</button>
     </div>
-    <div id="hideaway">
-      <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='block';">Hidden Content</a>
-      <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='none';">Hide content again</a>
-    </div>
+    <br>
+    <br>
+    <div id="hideaway">I've been found...</div>
+    <br>
+    <button  onclick="document.getElementById('hideaway').style.display='block';">Hidden Content</button>
+    <button onClick="document.getElementById('hideaway').style.display='none';">Hide content again</button>
   </body>
 </html>

@@ -1,7 +1,7 @@
 // JavaScript File
 
 // change color:
-function myFunction() { 
+function changeColor() { 
   document.getElementById("color").style.color = "red";
 }
 
