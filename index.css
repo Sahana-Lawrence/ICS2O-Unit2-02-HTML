@@ -1,0 +1,31 @@
+body {
+  background-color: lightblue;
+}
+
+#demo {
+  color: dodgerblue;
+}
+
+#color {
+  color: slateblue;
+}
+
+#img {
+  width: 200px;
+  height: 150px;
+}
+
+h1 {
+  color: teal;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+h3 {
+  text-align: justify;
+  color: green;
+}
