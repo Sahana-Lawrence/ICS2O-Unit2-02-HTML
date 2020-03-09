@@ -14,15 +14,18 @@
     <h1>Hello, World!</h1>
     <div>
       <h2>Second Day of JavaScript!</h2>
-      <p>
-        <h3>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</h3>
-      </p>
+      <p id="demo">A Paragraph</p>
+      <button onclick="myFunction()">Click Me!</button>
       <br>
-      <p id="color" onclick="myFunction(color)">Click me to change my text color.</p>
+      <p id="color" onclick="myFunction()">Click me to change my text color.</p>
       <br>
       <button onclick="document.getElementById('img').src='./images/castle.jpg'">Castle 1</button>
       <img id="img" src="./images/grass.jpg">
       <button onclick="document.getElementById('img').src='./images/castle2.jpg'">Castle 2</button>
+    </div>
+    <div id="hideaway">
+      <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='block';">Hidden Content</a>
+      <a href="javascript:;" onClick="document.getElementById('hideaway').style.display='none';">Hide content again</a>
     </div>
   </body>
 </html>
