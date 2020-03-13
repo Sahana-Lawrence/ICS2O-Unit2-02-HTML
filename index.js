@@ -16,6 +16,11 @@ function changeBodyBg(color){
 }
 
 // change background color to orange:
-function changeBodyBg(orange){
-  document.getElementById("body").style.background = orange;
+function changeBodyBg(color){
+  document.getElementById("body").style.background = color;
+}
+
+// change background color to orange:
+function changeBodyBg(color){
+  document.body.style.backgroundColor = "lime";
 }
